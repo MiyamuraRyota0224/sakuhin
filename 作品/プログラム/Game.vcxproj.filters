@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{c5ea6180-f141-465d-a8f9-2bc8a4e1a5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Object">
+      <UniqueIdentifier>{967e8ad1-cbfb-4b2d-bd88-80b388f283f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Player">
+      <UniqueIdentifier>{1de55b2d-b15f-433d-9363-463197dfdd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Camera">
+      <UniqueIdentifier>{c0f539c3-cfb7-4a58-892b-c7efe85e14ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Collision">
+      <UniqueIdentifier>{bd29c811-0cfa-4625-be7a-e6e83e2019ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Map">
+      <UniqueIdentifier>{9653320c-11c1-496e-b350-ff1143f53084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Scene">
+      <UniqueIdentifier>{50043c80-2fcb-4377-8c7b-bdea793012db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Common">
+      <UniqueIdentifier>{624cb00b-4191-4ffd-a5ec-41dd6be41935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Input">
+      <UniqueIdentifier>{c7e4b2d6-6524-49c5-b1f4-701014a87177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Stage">
+      <UniqueIdentifier>{3b45d0b4-6865-43c4-9098-0cd5eba17c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\UI">
+      <UniqueIdentifier>{36c887d1-9302-4c4f-a40f-e875eb9bbf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Sound">
+      <UniqueIdentifier>{9e517bca-65f4-4a42-b38a-c89eef5ff2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cristal">
+      <UniqueIdentifier>{7db3a067-4eaf-448a-b051-e9fd062f803f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Time">
+      <UniqueIdentifier>{c81c2eb7-fb8a-4a0d-9608-74fc3922e92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Maze">
+      <UniqueIdentifier>{7c3f0d8c-c837-485e-8800-dcadb3f220c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Treasure">
+      <UniqueIdentifier>{5e319efd-b2cc-4d7f-a5d9-315ffa4871ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Object.cpp">
+      <Filter>Src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\Player.cpp">
+      <Filter>Src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\PlayerManager.cpp">
+      <Filter>Src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\Common.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\MyMath.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>Src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\ClearScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\GameoverScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\PlayScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Scene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\SceneManager.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\TitleScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\CameraBase.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\CameraManager.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\PlayCamera.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\BoxCollision.cpp">
+      <Filter>Src\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\Collision.cpp">
+      <Filter>Src\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\CollisionManager.cpp">
+      <Filter>Src\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\SphereCollision.cpp">
+      <Filter>Src\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Map\Map.cpp">
+      <Filter>Src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Map\MapManager.cpp">
+      <Filter>Src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage\Stage.cpp">
+      <Filter>Src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Stage\StageManager.cpp">
+      <Filter>Src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sound\SoundManager.cpp">
+      <Filter>Src\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\GameUI.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\GameUIAnimation.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\GameUIManager.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\GameUISprite.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\Fade.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\TitleCamera.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\ClearCamera.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\GameoverCamera.cpp">
+      <Filter>Src\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cristal\Cristal.cpp">
+      <Filter>Src\Cristal</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Time\Time.cpp">
+      <Filter>Src\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maze\Maze.cpp">
+      <Filter>Src\Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maze\MazeManager.cpp">
+      <Filter>Src\Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cristal\CristalManager.cpp">
+      <Filter>Src\Cristal</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Treasure\Treasure.cpp">
+      <Filter>Src\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Treasure\TreasureManager.cpp">
+      <Filter>Src\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Time\TimeManager.cpp">
+      <Filter>Src\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Maze\Goal.cpp">
+      <Filter>Src\Maze</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Object\Object.h">
+      <Filter>Src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\ObjectParameter.h">
+      <Filter>Src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\Player.h">
+      <Filter>Src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\PlayerManager.h">
+      <Filter>Src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common\Common.h">
+      <Filter>Src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common\MyMath.h">
+      <Filter>Src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>Src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ClearScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\GameoverScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\PlayScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Scene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneManager.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneParameter.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\TitleScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\CameraBase.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\CameraManager.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\PlayCamera.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\CameraParameter.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\BoxCollision.h">
+      <Filter>Src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\Collision.h">
+      <Filter>Src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\CollisionManager.h">
+      <Filter>Src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\CollisionParameter.h">
+      <Filter>Src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\SphereCollision.h">
+      <Filter>Src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Map\Map.h">
+      <Filter>Src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Map\MapManager.h">
+      <Filter>Src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Map\MapParameter.h">
+      <Filter>Src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Stage\Stage.h">
+      <Filter>Src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Stage\StageManager.h">
+      <Filter>Src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Stage\StageParameter.h">
+      <Filter>Src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sound\SoundManager.h">
+      <Filter>Src\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sound\SoundParameter.h">
+      <Filter>Src\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUI.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUIAnimation.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUIManager.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUIParameter.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\GameUISprite.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common\Fade.h">
+      <Filter>Src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\TitleCamera.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\ClearCamera.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\GameoverCamera.h">
+      <Filter>Src\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Cristal\Cristal.h">
+      <Filter>Src\Cristal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Time\Time.h">
+      <Filter>Src\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Maze\Maze.h">
+      <Filter>Src\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Maze\MazeParameter.h">
+      <Filter>Src\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Maze\MazeManager.h">
+      <Filter>Src\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Cristal\CristalManager.h">
+      <Filter>Src\Cristal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Treasure\Treasure.h">
+      <Filter>Src\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Treasure\TreasureManager.h">
+      <Filter>Src\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Time\TimeManager.h">
+      <Filter>Src\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Maze\Goal.h">
+      <Filter>Src\Maze</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

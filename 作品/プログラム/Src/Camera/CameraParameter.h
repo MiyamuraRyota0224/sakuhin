@@ -1,0 +1,8 @@
+#pragma once
+
+enum CameraID{
+	CAMERA_ID_TITLE,
+	CAMERA_ID_PLAY,
+	CAMERA_ID_CLEAR,
+	CAMERA_ID_GAMEOVER,
+};
